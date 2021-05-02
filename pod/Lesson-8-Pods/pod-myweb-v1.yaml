@@ -1,0 +1,9 @@
+# copied from: https://www.youtube.com/watch?v=kGwe8IEDiX4&list=PLg5SS_4L6LYvN1RqaVesof8KAf-02fJSi&index=8&ab_channel=ADV-IT
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-web
+spec:
+  containers:
+    - name: container-apache
+      image: httpd:latest
